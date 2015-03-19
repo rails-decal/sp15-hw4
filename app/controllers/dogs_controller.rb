@@ -3,6 +3,10 @@ class DogsController < ApplicationController
         @dogs = Dog.all
     end
 
+    def hi
+        "hello"
+    end
+
     def new
         @dog = Dog.new #Creates an empty user object.
     end
